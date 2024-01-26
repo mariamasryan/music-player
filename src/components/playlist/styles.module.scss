@@ -1,0 +1,208 @@
+// home styles start
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    min-height: 800px;
+}
+
+.container {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    border-radius: 50px;
+    z-index: 4;
+}
+// search component's styles start
+.searchComponent {
+    top: 50px;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+
+    .searchInput {
+        width: 100%;
+        height: 40px;
+        background-color: rgba(169, 167, 167, 0.339);
+        border: none;
+        outline: none;
+        position: absolute;
+        color: rgb(11, 11, 11);
+        font-size: 16px;
+        padding-left: 10px;
+        border-radius: 5px;
+    }
+
+    .searchIcon {
+        position: absolute;
+        right: 8px;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.generalStyles {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+// search component's styles end
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+
+    .navbarParent {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+}
+// home styles end
+// playlist
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.generalStyles {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    z-index: 4;
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        color: blueviolet;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .addButton {
+        border-radius: 8px;
+        background-color: blueviolet;
+        color: #fff;
+        width: 50px;
+        height: 30px;
+        text-align: center;
+        padding: 5px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .showGridOrFlex {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            right: 20px;
+        }
+
+    }
+}
+
+.playlistTitle {
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    width: 50%;
+    color: black;
+}
+
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+
+.songItemContainer {
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.songItem {
+    display: flex;
+    align-items: center;
+
+    .songIcon {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.songInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border-bottom: 1px solid blueviolet;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-left: 20px;
+
+    &:hover {
+        background-color: blueviolet;
+
+        .songTitle {
+            color: #fff;
+        }
+
+        .songArtistInfo {
+            font-size: 13px;
+            color: #fff;
+        }
+
+    }
+}
+
+.songTitle {
+    color: blueviolet;
+}
+
+.songArtistInfo {
+    font-size: 13px;
+    color: grey;
+}
+
+.favIcon {
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.noFoundSong {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+
+@media only screen and (max-width: 304px) {
+    .home {
+        overflow: hidden;
+    }
+
+    .songInfo {
+        border: none;
+    }
+}

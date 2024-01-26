@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Poker Face",
+        "artist": "Lady Gaga",
+        "url1": "Lady_Gaga_-_Poker_Face.mp3",
+        "url2": "Lady_Gaga_-_Poker_Face.wav"
+    },
+    {
+        "id": 2,
+        "name": "Diamond",
+        "artist": "Rihanna",
+        "url1": "Rihanna – Diamonds.mp3",
+        "url2": "Rihanna – Diamonds.wav"
+    },
+    {
+        "id": 3,
+        "name": "Lose yourself",
+        "artist": "Eminem",
+        "url1": "Eminem – Lose Yourself.mp3",
+        "url2": "Eminem – Lose Yourself.wav"
+    },
+    {
+        "id": 4,
+        "name": "Not Afraid",
+        "artist": "Eminem",
+        "url1": "Eminem – Not Afraid.mp3",
+        "url2": "Eminem-–-Not-Afraid.wav"
+    },
+    {
+        "id": 5,
+        "name": "Mockingbrid",
+        "artist": "Eminem",
+        "url1": "Eminem – Mockingbird.mp3",
+        "url2": "Eminem-–-Mockingbird.wav"
+    },
+    {
+        "id": 6,
+        "name": "Chandelier",
+        "artist": "Sia",
+        "url1": "Sia – Chandelier.mp3",
+        "url2": "Sia-–-Chandelier.wav"
+    },
+    {
+        "id": 7,
+        "name": "Unstoppable",
+        "artist": "Sia",
+        "url1": "Sia – Unstoppable.mp3",
+        "url2": "Sia-–-Unstoppable.wav"
+    }
+]
